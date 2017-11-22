@@ -1,3 +1,10 @@
+# 7.0.2 (2017-11-22)
+* Fixes #161 : Have frost-list flex-wrap sort if it overflows
+
+
+# 7.0.1 (2017-11-21)
+* Fixed console errors when no `onSelectionChange` is given to the frost list.
+
 # 7.0.0 (2017-11-14)
 * Use latest major for `ember-frost-core`
 
