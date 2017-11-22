@@ -338,7 +338,9 @@ export default Component.extend({
         selection.basic(clonedSelectedItems, item, _rangeState, _itemComparator)
       }
 
-      this.onSelectionChange(clonedSelectedItems)
+      if (this.onSelectionChange) {
+        this.onSelectionChange(clonedSelectedItems)
+      }
     }
   }
 })
